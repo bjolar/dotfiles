@@ -1,0 +1,8 @@
+#!/bin/bash
+
+BASEDIR=$(dirname $0)
+cd $BASEDIR
+
+ln -sf ${PWD}/bashrc ~/.bashrc
+ln -sf ${PWD}/bash_aliases ~/.bash_aliases
+
